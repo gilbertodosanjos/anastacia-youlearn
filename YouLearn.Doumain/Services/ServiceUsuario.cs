@@ -38,9 +38,10 @@ namespace YouLearn.Doumain.Services
             }
 
             // persiste no banco de dados
-             AdicionarUsuarioResponse response = new RepositoryUsuario().Salvar(usuario);
+             //AdicionarUsuarioResponse response = new RepositoryUsuario().Salvar(usuario);
 
-            return response;
+            //return response;
+            return new AdicionarUsuarioResponse(Guid.NewGuid());
 
 
         }
