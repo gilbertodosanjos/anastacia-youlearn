@@ -1,32 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\giferreira\\Desktop\\Projetos\\YouLearn\\YouLearn.Doumain\\YouLearn.Doumain.csproj": {}
+    "/home/anastacia/Documents/Projetos/anastacia-youlearn/YouLearn.Doumain/YouLearn.Doumain.csproj": {}
   },
   "projects": {
-    "C:\\Users\\giferreira\\Desktop\\Projetos\\YouLearn\\YouLearn.Doumain\\YouLearn.Doumain.csproj": {
+    "/home/anastacia/Documents/Projetos/anastacia-youlearn/YouLearn.Doumain/YouLearn.Doumain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\giferreira\\Desktop\\Projetos\\YouLearn\\YouLearn.Doumain\\YouLearn.Doumain.csproj",
+        "projectUniqueName": "/home/anastacia/Documents/Projetos/anastacia-youlearn/YouLearn.Doumain/YouLearn.Doumain.csproj",
         "projectName": "YouLearn.Doumain",
-        "projectPath": "C:\\Users\\giferreira\\Desktop\\Projetos\\YouLearn\\YouLearn.Doumain\\YouLearn.Doumain.csproj",
-        "packagesPath": "C:\\Users\\giferreira\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\giferreira\\Desktop\\Projetos\\YouLearn\\YouLearn.Doumain\\obj\\",
+        "projectPath": "/home/anastacia/Documents/Projetos/anastacia-youlearn/YouLearn.Doumain/YouLearn.Doumain.csproj",
+        "packagesPath": "/home/anastacia/.nuget/packages/",
+        "outputPath": "/home/anastacia/Documents/Projetos/anastacia-youlearn/YouLearn.Doumain/obj/",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\giferreira\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/home/anastacia/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -109,18 +102,6 @@
             {
               "name": "Microsoft.NETCore.App.Runtime.win-x86",
               "version": "[3.1.32, 3.1.32]"
-            },
-            {
-              "name": "Microsoft.WindowsDesktop.App.Ref",
-              "version": "[3.1.0, 3.1.0]"
-            },
-            {
-              "name": "Microsoft.WindowsDesktop.App.Runtime.win-x64",
-              "version": "[3.1.32, 3.1.32]"
-            },
-            {
-              "name": "Microsoft.WindowsDesktop.App.Runtime.win-x86",
-              "version": "[3.1.32, 3.1.32]"
             }
           ],
           "frameworkReferences": {
@@ -128,7 +109,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/snap/dotnet-sdk/198/sdk/7.0.202/RuntimeIdentifierGraph.json"
         }
       },
       "runtimes": {
