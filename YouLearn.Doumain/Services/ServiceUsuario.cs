@@ -3,6 +3,7 @@ using System;
 using YouLearn.Doumain.Arguments.Usuario;
 using YouLearn.Doumain.Entities;
 using YouLearn.Doumain.Interfaces.Services;
+using YouLearn.Doumain.ValueObjects;
 
 namespace YouLearn.Doumain.Services
 {
@@ -10,35 +11,15 @@ namespace YouLearn.Doumain.Services
     {
         public AdicionarUsuarioResponse AdicionarUsuario(AdicionarUsuarioRequest request)
         {
-            if (request == null) 
-            {
-                AddNotification("AdicionarUsuarioRequest","Objeto AdicionarUsuario é obrigatório");
-                return null;
-            }
+            Nome nome = new Nome(request.PrimeiroNome, request.UltimoNome);
+            Email email = new Email(request.Email);
+            Usuario usuario = new Usuario(nome, email, request.Senha);
 
-            Usuario usuario = new Usuario();
-            usuario.Nome.PrimeiroNome = "Gilberto Luiz";
-            usuario.Nome.UltimoNome = "dos Anjos";
-            usuario.Email.Emdereco = "gilbertodosanjos@gmail.com";
-            usuario.Senha = "123456";
+            AddNotifications(nome, email, usuario);
 
-            if (usuario.Nome.PrimeiroNome.Length < 3 || usuario.Nome.PrimeiroNome.Length > 50) 
-            {
-                throw new Exception("Utimo nome é obrigatório e deve ter entre 3 e 50 caracteres");
-            }
-
-            if (usuario.Email.Emdereco.IndexOf("@") < 1) 
-            {
-                throw new Exception("Email invalido");
-            }
-
-            if (usuario.Senha.Length >=3) 
-            {
-                throw new Exception("Senha deve ter no minimo 3 carasteres");
-            }
-
+     
             // persiste no banco de dados
-             //AdicionarUsuarioResponse response = new RepositoryUsuario().Salvar(usuario);
+            //AdicionarUsuarioResponse response = new RepositoryUsuario().Salvar(usuario);
 
             //return response;
             return new AdicionarUsuarioResponse(Guid.NewGuid());

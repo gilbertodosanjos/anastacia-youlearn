@@ -8,6 +8,12 @@ namespace YouLearn.Doumain.Arguments.Usuario
 {
     public  class AutenticarUsuarioResponse
     {
+        public AutenticarUsuarioResponse(Guid id, string primeiroNome)
+        {
+            Id = id;
+            PrimeiroNome = primeiroNome;
+        }
+
         public Guid Id { get; set; }
         public string  PrimeiroNome { get; set; }
     }

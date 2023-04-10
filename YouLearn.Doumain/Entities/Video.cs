@@ -6,6 +6,19 @@ namespace YouLearn.Doumain.Entities
 {
     public  class Video : EntityBase
     {
+        public Video(Canal canal, PlayList playList, string titulo, string descricao, string tags, string ordemNaPlayList, string idVideoYouTube, Usuario usuarioSugeriu, EnumStatus status)
+        {
+            Canal = canal;
+            PlayList = playList;
+            Titulo = titulo;
+            Descricao = descricao;
+            Tags = tags;
+            OrdemNaPlayList = ordemNaPlayList;
+            IdVideoYouTube = idVideoYouTube;
+            UsuarioSugeriu = usuarioSugeriu;
+            Status = status;
+        }
+
         public Canal Canal { get; set; }
         public PlayList PlayList { get; set; }
         public string  Titulo { get; set; }
