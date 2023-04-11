@@ -15,13 +15,17 @@ namespace YouLearn.Doumain.Entities
             Email = email;
             Senha = senha;
 
+            AddNotifications(nome,email);
+
             new AddNotifications<Usuario>(this)
-                .IfNullOrInvalidLength(x=>x.Senha,1,10,MSG.X0_OBRIGATORIA_E_DEVE_CONTER_ENTRE_X1_E_X2_CARACTERES.ToFormat("Senha",1,10));
+                .IfNullOrInvalidLength(x=>x.Senha,1,10,MSG.X0_OBRIGATORIA_E_DEVE_CONTER_ENTRE_X1_E_X2_CARACTERES.ToFormat("Senha",3,10));
+
+                  
 
         }
 
-        public Nome  Nome { get; set; }
-        public Email  Email { get; set; }
-        public string  Senha { get; set; }
+        public Nome  Nome { get; private set; }
+        public Email  Email { get; private set; }
+        public string  Senha { get; private set; }
     }
 }

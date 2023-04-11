@@ -12,9 +12,9 @@ namespace YouLearn.Doumain.Entities
             Usuario = usuario;
         }
 
-        public string Nome { get; set; }
-        public string UrlLogo { get; set; }
-        public Usuario Usuario { get; set; }
+        public string Nome { get; private set; }
+        public string UrlLogo { get; private set; }
+        public Usuario Usuario { get; private set; }
 
     }
 }

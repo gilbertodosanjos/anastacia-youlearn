@@ -19,9 +19,9 @@ namespace YouLearn.Doumain.Entities
             Status = status;
         }
 
-        public Canal Canal { get; set; }
-        public PlayList PlayList { get; set; }
-        public string  Titulo { get; set; }
+        public Canal Canal { get; private set; }
+        public PlayList PlayList { get; private set; }
+        public string  Titulo { get; private set; }
         public string Descricao { get; set; }
         public string Tags { get; set; }
         public string OrdemNaPlayList { get; set; }

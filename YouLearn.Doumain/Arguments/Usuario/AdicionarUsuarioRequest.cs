@@ -10,9 +10,9 @@
             Senha = senha;
         }
 
-        public string  PrimeiroNome { get; set; }
-        public string UltimoNome { get; set; }
-        public string Email { get; set; }
-        public string Senha { get; set; }
+        public string  PrimeiroNome { get; private set; }
+        public string UltimoNome { get; private set; }
+        public string Email { get; private set; }
+        public string Senha { get; private set; }
     }
 }

@@ -14,7 +14,7 @@ namespace YouLearn.Doumain.Entities.Base
             Id = Guid.NewGuid();
         }
 
-        public virtual Guid  Id { get; set; }
+        public virtual Guid  Id { get; private set; }
 
     }
 }

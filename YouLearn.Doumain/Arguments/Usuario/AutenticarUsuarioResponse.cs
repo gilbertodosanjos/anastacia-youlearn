@@ -14,7 +14,7 @@ namespace YouLearn.Doumain.Arguments.Usuario
             PrimeiroNome = primeiroNome;
         }
 
-        public Guid Id { get; set; }
-        public string  PrimeiroNome { get; set; }
+        public Guid Id { get; private set; }
+        public string  PrimeiroNome { get; private set; }
     }
 }

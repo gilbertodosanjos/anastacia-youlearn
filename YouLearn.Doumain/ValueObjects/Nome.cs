@@ -18,7 +18,7 @@ namespace YouLearn.Doumain.ValueObjects
 
         }
 
-        public string PrimeiroNome { get; set; }
-        public string UltimoNome { get; set; }
+        public string PrimeiroNome { get; private set; }
+        public string UltimoNome { get; private set; }
     }
 }
