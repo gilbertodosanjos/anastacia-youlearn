@@ -12,7 +12,7 @@ namespace YouLearn.Doumain.Services
     public class ServiceUsuario : Notifiable, IServiceUsuario
     {
         //Dependencias
-        private readonly IRepositoryUsuario _repositoryUsuario;
+         private readonly IRepositoryUsuario _repositoryUsuario;
 
         public ServiceUsuario(IRepositoryUsuario repositoryUsuario)
         {
