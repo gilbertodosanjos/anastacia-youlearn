@@ -1,0 +1,15 @@
+/home/anastacia/Documents/Projetos/anastacia-youlearn/YouLearn.Console/bin/Debug/net7.0/YouLearn.Console
+/home/anastacia/Documents/Projetos/anastacia-youlearn/YouLearn.Console/bin/Debug/net7.0/YouLearn.Console.deps.json
+/home/anastacia/Documents/Projetos/anastacia-youlearn/YouLearn.Console/bin/Debug/net7.0/YouLearn.Console.runtimeconfig.json
+/home/anastacia/Documents/Projetos/anastacia-youlearn/YouLearn.Console/bin/Debug/net7.0/YouLearn.Console.dll
+/home/anastacia/Documents/Projetos/anastacia-youlearn/YouLearn.Console/bin/Debug/net7.0/YouLearn.Console.pdb
+/home/anastacia/Documents/Projetos/anastacia-youlearn/YouLearn.Console/obj/Debug/net7.0/YouLearn.Console.csproj.AssemblyReference.cache
+/home/anastacia/Documents/Projetos/anastacia-youlearn/YouLearn.Console/obj/Debug/net7.0/YouLearn.Console.GeneratedMSBuildEditorConfig.editorconfig
+/home/anastacia/Documents/Projetos/anastacia-youlearn/YouLearn.Console/obj/Debug/net7.0/YouLearn.Console.AssemblyInfoInputs.cache
+/home/anastacia/Documents/Projetos/anastacia-youlearn/YouLearn.Console/obj/Debug/net7.0/YouLearn.Console.AssemblyInfo.cs
+/home/anastacia/Documents/Projetos/anastacia-youlearn/YouLearn.Console/obj/Debug/net7.0/YouLearn.Console.csproj.CoreCompileInputs.cache
+/home/anastacia/Documents/Projetos/anastacia-youlearn/YouLearn.Console/obj/Debug/net7.0/YouLearn.Console.dll
+/home/anastacia/Documents/Projetos/anastacia-youlearn/YouLearn.Console/obj/Debug/net7.0/refint/YouLearn.Console.dll
+/home/anastacia/Documents/Projetos/anastacia-youlearn/YouLearn.Console/obj/Debug/net7.0/YouLearn.Console.pdb
+/home/anastacia/Documents/Projetos/anastacia-youlearn/YouLearn.Console/obj/Debug/net7.0/YouLearn.Console.genruntimeconfig.cache
+/home/anastacia/Documents/Projetos/anastacia-youlearn/YouLearn.Console/obj/Debug/net7.0/ref/YouLearn.Console.dll

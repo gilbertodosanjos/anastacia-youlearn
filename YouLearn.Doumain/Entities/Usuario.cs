@@ -3,6 +3,7 @@ using prmToolkit.NotificationPattern;
 using prmToolkit.NotificationPattern.Extensions;
 using YouLearn.Domain.Resources;
 using YouLearn.Doumain.Entities.Base;
+using YouLearn.Doumain.Extensions;
 using YouLearn.Doumain.ValueObjects;
 
 namespace YouLearn.Doumain.Entities
@@ -20,7 +21,7 @@ namespace YouLearn.Doumain.Entities
             new AddNotifications<Usuario>(this)
                 .IfNullOrInvalidLength(x=>x.Senha,1,10,MSG.X0_OBRIGATORIA_E_DEVE_CONTER_ENTRE_X1_E_X2_CARACTERES.ToFormat("Senha",3,10));
 
-                  
+            Senha = Senha.ConvertToMD5();      
 
         }
 

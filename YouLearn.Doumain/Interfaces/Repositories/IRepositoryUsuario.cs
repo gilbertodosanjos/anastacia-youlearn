@@ -1,9 +1,9 @@
-﻿using System;
+using System;
 using YouLearn.Doumain.Entities;
 
 namespace YouLearn.Doumain.Interfaces.Repositories
 {
-    public  interface IRepositiryUsuario
+    public  interface IRepositoryUsuario
     {
         Usuario Obter(Guid Id);
         Usuario Obter(string email, string senha);
