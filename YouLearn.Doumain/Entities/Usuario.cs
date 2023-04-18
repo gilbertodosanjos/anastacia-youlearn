@@ -10,19 +10,29 @@ namespace YouLearn.Doumain.Entities
 {
     public class Usuario : EntityBase
     {
+        public Usuario(Email email, string senha)
+        {
+            Email = email;
+            Senha = senha;
+
+            //Criptografo a senha
+            Senha = Senha.ConvertToMD5();
+
+            AddNotifications(email);
+        }
+
         public Usuario(Nome nome, Email email, string senha)
         {
             Nome = nome;
             Email = email;
             Senha = senha;
 
-            AddNotifications(nome,email);
+            new AddNotifications<Usuario>(this).IfNullOrInvalidLength(x => x.Senha, 3, 32);
 
-            new AddNotifications<Usuario>(this)
-                .IfNullOrInvalidLength(x=>x.Senha,1,10,MSG.X0_OBRIGATORIA_E_DEVE_CONTER_ENTRE_X1_E_X2_CARACTERES.ToFormat("Senha",3,10));
+            //Criptografo a senha
+            Senha = Senha.ConvertToMD5();
 
-            Senha = Senha.ConvertToMD5();      
-
+            AddNotifications(nome, email);
         }
 
         public Nome  Nome { get; private set; }

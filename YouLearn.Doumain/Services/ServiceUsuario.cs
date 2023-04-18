@@ -29,6 +29,7 @@ namespace YouLearn.Doumain.Services
 
             _repositoryUsuario.Salvar(usuario);
 
+            
             // persiste no banco de dados
             //AdicionarUsuarioResponse response = new RepositoryUsuario().Salvar(usuario);
 
