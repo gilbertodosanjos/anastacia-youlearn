@@ -8,7 +8,7 @@
             Senha = senha;
         }
 
-        public string  Email { get; set; }
-        public string Senha { get; set; }
+        public string  Email { get; private set; }
+        public string Senha { get; private set; }
     }
 }
