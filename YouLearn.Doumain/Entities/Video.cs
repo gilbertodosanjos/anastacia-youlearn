@@ -1,4 +1,7 @@
 ﻿using System;
+using prmToolkit.NotificationPattern;
+using prmToolkit.NotificationPattern.Extensions;
+using YouLearn.Domain.Resources;
 using YouLearn.Doumain.Entities.Base;
 using YouLearn.Doumain.Enuns;
 
