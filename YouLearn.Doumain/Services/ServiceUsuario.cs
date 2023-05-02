@@ -1,5 +1,4 @@
 ﻿using prmToolkit.NotificationPattern;
-using System;
 using YouLearn.Doumain.Arguments.Usuario;
 using YouLearn.Doumain.Entities;
 using YouLearn.Doumain.Interfaces.Repositories;

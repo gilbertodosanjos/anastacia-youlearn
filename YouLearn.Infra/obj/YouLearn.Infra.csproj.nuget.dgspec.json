@@ -1,0 +1,134 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/anastacia/Documentos/Projetos/anastacia-youlearn/YouLearn.Infra/YouLearn.Infra.csproj": {}
+  },
+  "projects": {
+    "/home/anastacia/Documentos/Projetos/anastacia-youlearn/YouLearn.Doumain/YouLearn.Doumain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/anastacia/Documentos/Projetos/anastacia-youlearn/YouLearn.Doumain/YouLearn.Doumain.csproj",
+        "projectName": "YouLearn.Doumain",
+        "projectPath": "/home/anastacia/Documentos/Projetos/anastacia-youlearn/YouLearn.Doumain/YouLearn.Doumain.csproj",
+        "packagesPath": "/home/anastacia/.nuget/packages/",
+        "outputPath": "/home/anastacia/Documentos/Projetos/anastacia-youlearn/YouLearn.Doumain/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/anastacia/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "prmToolkit.NotificationPattern": {
+              "target": "Package",
+              "version": "[1.1.5, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/snap/dotnet-sdk/199/sdk/7.0.203/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/anastacia/Documentos/Projetos/anastacia-youlearn/YouLearn.Infra/YouLearn.Infra.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/anastacia/Documentos/Projetos/anastacia-youlearn/YouLearn.Infra/YouLearn.Infra.csproj",
+        "projectName": "YouLearn.Infra",
+        "projectPath": "/home/anastacia/Documentos/Projetos/anastacia-youlearn/YouLearn.Infra/YouLearn.Infra.csproj",
+        "packagesPath": "/home/anastacia/.nuget/packages/",
+        "outputPath": "/home/anastacia/Documentos/Projetos/anastacia-youlearn/YouLearn.Infra/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/anastacia/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "/home/anastacia/Documentos/Projetos/anastacia-youlearn/YouLearn.Doumain/YouLearn.Doumain.csproj": {
+                "projectPath": "/home/anastacia/Documentos/Projetos/anastacia-youlearn/YouLearn.Doumain/YouLearn.Doumain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.5, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "target": "Package",
+              "version": "[7.0.5, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/snap/dotnet-sdk/199/sdk/7.0.203/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

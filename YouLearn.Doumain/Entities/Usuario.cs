@@ -35,7 +35,7 @@ namespace YouLearn.Doumain.Entities
             AddNotifications(nome, email);
         }
 
-        public Nome  Nome { get; private set; }
+        public Nome?  Nome { get; private set; }
         public Email  Email { get; private set; }
         public string  Senha { get; private set; }
     }
