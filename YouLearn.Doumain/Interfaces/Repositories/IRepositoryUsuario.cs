@@ -5,7 +5,7 @@ namespace YouLearn.Doumain.Interfaces.Repositories
 {
     public  interface IRepositoryUsuario
     {
-        public Usuario Obter(Guid Id);
+        public Usuario Obter(Guid id);
         public Usuario Obter(string email, string senha);
 
         public void Salvar(Usuario usuario);

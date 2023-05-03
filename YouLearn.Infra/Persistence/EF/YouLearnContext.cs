@@ -1,10 +1,13 @@
 using Microsoft.EntityFrameworkCore;
+using prmToolkit.NotificationPattern;
 using YouLearn.Doumain.Entities;
+using YouLearn.Doumain.ValueObjects;
+using YouLearn.Infra.Persistence.EF.MAP;
 using YouLearn.Shared;
 
 namespace YouLearn.Infra.Persistence.EF
 {
-    public class YouLeranContext : DbContext 
+    public class YouLearnContext : DbContext 
     {
         public DbSet<Canal>?  Canais { get;  set; }
 
@@ -24,6 +27,21 @@ namespace YouLearn.Infra.Persistence.EF
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             base.OnModelCreating(modelBuilder);
+
+            //ignorar classes
+            modelBuilder.Ignore<Notification>();
+            modelBuilder.Ignore<Nome>();
+            modelBuilder.Ignore<Email>();
+            
+            //aplicar as configurações
+            modelBuilder.ApplyConfiguration(new MapCanal());
+            modelBuilder.ApplyConfiguration(new MapPlayList());
+            modelBuilder.ApplyConfiguration(new MapVideo());
+            modelBuilder.ApplyConfiguration(new MapUsuario());
+
+            //comando para gerar o banco de dados
+            base.OnModelCreating(modelBuilder);
+
         }
 
     }

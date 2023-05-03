@@ -49,7 +49,7 @@
       "Humanizer.Core/2.14.1": {
         "type": "package",
         "compile": {
-          "lib/net6.0/Humanizer.dll": {
+          "lib/net6.0/_._": {
             "related": ".xml"
           }
         },
@@ -196,7 +196,7 @@
           "Mono.TextTemplating": "2.2.1"
         },
         "compile": {
-          "lib/net6.0/Microsoft.EntityFrameworkCore.Design.dll": {
+          "lib/net6.0/_._": {
             "related": ".xml"
           }
         },
@@ -358,7 +358,7 @@
           "System.Text.Json": "7.0.0"
         },
         "compile": {
-          "lib/net7.0/Microsoft.Extensions.DependencyModel.dll": {
+          "lib/net7.0/_._": {
             "related": ".xml"
           }
         },
@@ -670,7 +670,7 @@
           "System.CodeDom": "4.4.0"
         },
         "compile": {
-          "lib/netstandard2.0/Mono.TextTemplating.dll": {}
+          "lib/netstandard2.0/_._": {}
         },
         "runtime": {
           "lib/netstandard2.0/Mono.TextTemplating.dll": {}
@@ -939,7 +939,7 @@
       "System.CodeDom/4.4.0": {
         "type": "package",
         "compile": {
-          "ref/netstandard2.0/System.CodeDom.dll": {
+          "ref/netstandard2.0/_._": {
             "related": ".xml"
           }
         },
@@ -2233,6 +2233,16 @@
         },
         "runtime": {
           "bin/placeholder/YouLearn.Doumain.dll": {}
+        }
+      },
+      "YouLearn.Shared/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/YouLearn.Shared.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/YouLearn.Shared.dll": {}
         }
       }
     }
@@ -7158,13 +7168,19 @@
       "type": "project",
       "path": "../YouLearn.Doumain/YouLearn.Doumain.csproj",
       "msbuildProject": "../YouLearn.Doumain/YouLearn.Doumain.csproj"
+    },
+    "YouLearn.Shared/1.0.0": {
+      "type": "project",
+      "path": "../YouLearn.Shared/YouLearn.Shared.csproj",
+      "msbuildProject": "../YouLearn.Shared/YouLearn.Shared.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net7.0": [
       "Microsoft.EntityFrameworkCore.SqlServer >= 7.0.5",
       "Microsoft.EntityFrameworkCore.Tools >= 7.0.5",
-      "YouLearn.Doumain >= 1.0.0"
+      "YouLearn.Doumain >= 1.0.0",
+      "YouLearn.Shared >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -7194,6 +7210,9 @@
           "projectReferences": {
             "/home/anastacia/Documentos/Projetos/anastacia-youlearn/YouLearn.Doumain/YouLearn.Doumain.csproj": {
               "projectPath": "/home/anastacia/Documentos/Projetos/anastacia-youlearn/YouLearn.Doumain/YouLearn.Doumain.csproj"
+            },
+            "/home/anastacia/Documentos/Projetos/anastacia-youlearn/YouLearn.Shared/YouLearn.Shared.csproj": {
+              "projectPath": "/home/anastacia/Documentos/Projetos/anastacia-youlearn/YouLearn.Shared/YouLearn.Shared.csproj"
             }
           }
         }

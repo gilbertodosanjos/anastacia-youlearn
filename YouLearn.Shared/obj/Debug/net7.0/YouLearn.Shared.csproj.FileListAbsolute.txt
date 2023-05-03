@@ -1,0 +1,12 @@
+/home/anastacia/Documentos/Projetos/anastacia-youlearn/YouLearn.Shared/bin/Debug/net7.0/YouLearn.Shared.deps.json
+/home/anastacia/Documentos/Projetos/anastacia-youlearn/YouLearn.Shared/bin/Debug/net7.0/YouLearn.Shared.dll
+/home/anastacia/Documentos/Projetos/anastacia-youlearn/YouLearn.Shared/bin/Debug/net7.0/YouLearn.Shared.pdb
+/home/anastacia/Documentos/Projetos/anastacia-youlearn/YouLearn.Shared/obj/Debug/net7.0/YouLearn.Shared.csproj.AssemblyReference.cache
+/home/anastacia/Documentos/Projetos/anastacia-youlearn/YouLearn.Shared/obj/Debug/net7.0/YouLearn.Shared.GeneratedMSBuildEditorConfig.editorconfig
+/home/anastacia/Documentos/Projetos/anastacia-youlearn/YouLearn.Shared/obj/Debug/net7.0/YouLearn.Shared.AssemblyInfoInputs.cache
+/home/anastacia/Documentos/Projetos/anastacia-youlearn/YouLearn.Shared/obj/Debug/net7.0/YouLearn.Shared.AssemblyInfo.cs
+/home/anastacia/Documentos/Projetos/anastacia-youlearn/YouLearn.Shared/obj/Debug/net7.0/YouLearn.Shared.csproj.CoreCompileInputs.cache
+/home/anastacia/Documentos/Projetos/anastacia-youlearn/YouLearn.Shared/obj/Debug/net7.0/YouLearn.Shared.dll
+/home/anastacia/Documentos/Projetos/anastacia-youlearn/YouLearn.Shared/obj/Debug/net7.0/refint/YouLearn.Shared.dll
+/home/anastacia/Documentos/Projetos/anastacia-youlearn/YouLearn.Shared/obj/Debug/net7.0/YouLearn.Shared.pdb
+/home/anastacia/Documentos/Projetos/anastacia-youlearn/YouLearn.Shared/obj/Debug/net7.0/ref/YouLearn.Shared.dll

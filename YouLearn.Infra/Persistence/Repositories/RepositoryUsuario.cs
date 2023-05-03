@@ -1,31 +1,39 @@
 
 using System;
+using System.Linq;
 using YouLearn.Doumain.Entities;
 using YouLearn.Doumain.Interfaces.Repositories;
-
+using YouLearn.Infra.Persistence.EF;
 
 namespace YouLearn.Infra.Persistence.Repositories
 {
     public class RepositoryUsuario : IRepositoryUsuario
     {
-        bool IRepositoryUsuario.Existe(string emai)
+        private readonly YouLearnContext _context;
+
+        public RepositoryUsuario(YouLearnContext context)
         {
-            throw new NotImplementedException();
+            _context = context;
         }
 
-        Usuario IRepositoryUsuario.Obter(Guid Id)
+        bool IRepositoryUsuario.Existe(string email)
         {
-            throw new NotImplementedException();
+            return _context.Usuarios.Any(x=>x.Email.Endereco == email);
         }
 
-        Usuario IRepositoryUsuario.Obter(string email, string senha)
+        Usuario IRepositoryUsuario.Obter(Guid id)
         {
-            throw new NotImplementedException();
+            return _context.Usuarios.FirstOrDefault(x=>x.Id == id);
+        }
+
+         Usuario IRepositoryUsuario.Obter(string email, string senha)
+        {
+            return _context.Usuarios.FirstOrDefault(x=>x.Email.Endereco  == email && x.Senha == senha );
         }
 
         void IRepositoryUsuario.Salvar(Usuario usuario)
         {
-            throw new NotImplementedException();
+            _context.Usuarios.Add(usuario);
         }
     }
 }
