@@ -74,3 +74,11 @@
 /home/anastacia/Documentos/Projetos/anastacia-youlearn/YouLearn.Api/obj/Debug/net7.0/YouLearn.Api.pdb
 /home/anastacia/Documentos/Projetos/anastacia-youlearn/YouLearn.Api/obj/Debug/net7.0/YouLearn.Api.genruntimeconfig.cache
 /home/anastacia/Documentos/Projetos/anastacia-youlearn/YouLearn.Api/obj/Debug/net7.0/ref/YouLearn.Api.dll
+/home/anastacia/Documentos/Projetos/anastacia-youlearn/YouLearn.Api/bin/Debug/net7.0/prmToolkit.NotificationPattern.dll
+/home/anastacia/Documentos/Projetos/anastacia-youlearn/YouLearn.Api/bin/Debug/net7.0/en-US/prmToolkit.NotificationPattern.resources.dll
+/home/anastacia/Documentos/Projetos/anastacia-youlearn/YouLearn.Api/bin/Debug/net7.0/YouLearn.Domain.dll
+/home/anastacia/Documentos/Projetos/anastacia-youlearn/YouLearn.Api/bin/Debug/net7.0/YouLearn.Infra.dll
+/home/anastacia/Documentos/Projetos/anastacia-youlearn/YouLearn.Api/bin/Debug/net7.0/YouLearn.Shared.dll
+/home/anastacia/Documentos/Projetos/anastacia-youlearn/YouLearn.Api/bin/Debug/net7.0/YouLearn.Infra.pdb
+/home/anastacia/Documentos/Projetos/anastacia-youlearn/YouLearn.Api/bin/Debug/net7.0/YouLearn.Domain.pdb
+/home/anastacia/Documentos/Projetos/anastacia-youlearn/YouLearn.Api/bin/Debug/net7.0/YouLearn.Shared.pdb
