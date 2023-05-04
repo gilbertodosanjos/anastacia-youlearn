@@ -1,7 +1,7 @@
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
-using YouLearn.Doumain.Entities;
-using YouLearn.Doumain.ValueObjects;
+using YouLearn.Domain.Entities;
+using YouLearn.Domain.ValueObjects;
 
 namespace YouLearn.Infra.Persistence.EF.MAP;
 

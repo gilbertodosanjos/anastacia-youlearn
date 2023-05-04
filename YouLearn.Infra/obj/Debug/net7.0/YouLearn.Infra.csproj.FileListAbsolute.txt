@@ -2,10 +2,10 @@
 /home/anastacia/Documentos/Projetos/anastacia-youlearn/YouLearn.Infra/bin/Debug/net7.0/YouLearn.Infra.runtimeconfig.json
 /home/anastacia/Documentos/Projetos/anastacia-youlearn/YouLearn.Infra/bin/Debug/net7.0/YouLearn.Infra.dll
 /home/anastacia/Documentos/Projetos/anastacia-youlearn/YouLearn.Infra/bin/Debug/net7.0/YouLearn.Infra.pdb
-/home/anastacia/Documentos/Projetos/anastacia-youlearn/YouLearn.Infra/bin/Debug/net7.0/YouLearn.Doumain.dll
+/home/anastacia/Documentos/Projetos/anastacia-youlearn/YouLearn.Infra/bin/Debug/net7.0/YouLearn.Domain.dll
 /home/anastacia/Documentos/Projetos/anastacia-youlearn/YouLearn.Infra/bin/Debug/net7.0/YouLearn.Shared.dll
-/home/anastacia/Documentos/Projetos/anastacia-youlearn/YouLearn.Infra/bin/Debug/net7.0/YouLearn.Doumain.pdb
 /home/anastacia/Documentos/Projetos/anastacia-youlearn/YouLearn.Infra/bin/Debug/net7.0/YouLearn.Shared.pdb
+/home/anastacia/Documentos/Projetos/anastacia-youlearn/YouLearn.Infra/bin/Debug/net7.0/YouLearn.Domain.pdb
 /home/anastacia/Documentos/Projetos/anastacia-youlearn/YouLearn.Infra/obj/Debug/net7.0/YouLearn.Infra.csproj.AssemblyReference.cache
 /home/anastacia/Documentos/Projetos/anastacia-youlearn/YouLearn.Infra/obj/Debug/net7.0/YouLearn.Infra.GeneratedMSBuildEditorConfig.editorconfig
 /home/anastacia/Documentos/Projetos/anastacia-youlearn/YouLearn.Infra/obj/Debug/net7.0/YouLearn.Infra.AssemblyInfoInputs.cache

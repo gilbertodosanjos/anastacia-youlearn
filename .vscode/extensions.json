@@ -1,5 +1,6 @@
 {
     "recommendations": [
-        "realvisualstudio.realcorecli"
+        "realvisualstudio.realcorecli",
+        "pkosta2006.vscode-cli"
     ]
 }

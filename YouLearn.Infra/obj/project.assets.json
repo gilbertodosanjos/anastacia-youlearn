@@ -2222,17 +2222,17 @@
           "lib/netstandard1.3/System.Xml.XDocument.dll": {}
         }
       },
-      "YouLearn.Doumain/1.0.0": {
+      "YouLearn.Domain/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v7.0",
         "dependencies": {
           "prmToolkit.NotificationPattern": "1.1.5"
         },
         "compile": {
-          "bin/placeholder/YouLearn.Doumain.dll": {}
+          "bin/placeholder/YouLearn.Domain.dll": {}
         },
         "runtime": {
-          "bin/placeholder/YouLearn.Doumain.dll": {}
+          "bin/placeholder/YouLearn.Domain.dll": {}
         }
       },
       "YouLearn.Shared/1.0.0": {
@@ -7164,10 +7164,10 @@
         "system.xml.xdocument.nuspec"
       ]
     },
-    "YouLearn.Doumain/1.0.0": {
+    "YouLearn.Domain/1.0.0": {
       "type": "project",
-      "path": "../YouLearn.Doumain/YouLearn.Doumain.csproj",
-      "msbuildProject": "../YouLearn.Doumain/YouLearn.Doumain.csproj"
+      "path": "../YouLearn.Domain/YouLearn.Domain.csproj",
+      "msbuildProject": "../YouLearn.Domain/YouLearn.Domain.csproj"
     },
     "YouLearn.Shared/1.0.0": {
       "type": "project",
@@ -7180,7 +7180,7 @@
       "Microsoft.EntityFrameworkCore.Design >= 7.0.5",
       "Microsoft.EntityFrameworkCore.SqlServer >= 7.0.5",
       "Microsoft.EntityFrameworkCore.Tools >= 7.0.5",
-      "YouLearn.Doumain >= 1.0.0",
+      "YouLearn.Domain >= 1.0.0",
       "YouLearn.Shared >= 1.0.0"
     ]
   },
@@ -7209,8 +7209,8 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "/home/anastacia/Documentos/Projetos/anastacia-youlearn/YouLearn.Doumain/YouLearn.Doumain.csproj": {
-              "projectPath": "/home/anastacia/Documentos/Projetos/anastacia-youlearn/YouLearn.Doumain/YouLearn.Doumain.csproj"
+            "/home/anastacia/Documentos/Projetos/anastacia-youlearn/YouLearn.Domain/YouLearn.Domain.csproj": {
+              "projectPath": "/home/anastacia/Documentos/Projetos/anastacia-youlearn/YouLearn.Domain/YouLearn.Domain.csproj"
             },
             "/home/anastacia/Documentos/Projetos/anastacia-youlearn/YouLearn.Shared/YouLearn.Shared.csproj": {
               "projectPath": "/home/anastacia/Documentos/Projetos/anastacia-youlearn/YouLearn.Shared/YouLearn.Shared.csproj"

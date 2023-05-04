@@ -11,7 +11,7 @@
           "Microsoft.EntityFrameworkCore.Design": "7.0.5",
           "Microsoft.EntityFrameworkCore.SqlServer": "7.0.5",
           "Microsoft.EntityFrameworkCore.Tools": "7.0.5",
-          "YouLearn.Doumain": "1.0.0",
+          "YouLearn.Domain": "1.0.0",
           "YouLearn.Shared": "1.0.0"
         },
         "runtime": {
@@ -1251,12 +1251,12 @@
           "System.Xml.ReaderWriter": "4.3.0"
         }
       },
-      "YouLearn.Doumain/1.0.0": {
+      "YouLearn.Domain/1.0.0": {
         "dependencies": {
           "prmToolkit.NotificationPattern": "1.1.5"
         },
         "runtime": {
-          "YouLearn.Doumain.dll": {}
+          "YouLearn.Domain.dll": {}
         }
       },
       "YouLearn.Shared/1.0.0": {
@@ -2161,7 +2161,7 @@
       "path": "system.xml.xdocument/4.3.0",
       "hashPath": "system.xml.xdocument.4.3.0.nupkg.sha512"
     },
-    "YouLearn.Doumain/1.0.0": {
+    "YouLearn.Domain/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

@@ -1,7 +1,7 @@
 <Project Sdk="Microsoft.NET.Sdk">
   <ItemGroup>
-    <ProjectReference Include="..\YouLearn.Doumain\YouLearn.Doumain.csproj" />
     <ProjectReference Include="..\YouLearn.Shared\YouLearn.Shared.csproj" />
+    <ProjectReference Include="..\YouLearn.Domain\YouLearn.Domain.csproj" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="7.0.5">

@@ -1,15 +1,15 @@
-﻿
+
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YouLearn.Doumain", "YouLearn.Doumain\YouLearn.Doumain.csproj", "{D995F6BF-AB78-40DF-98B3-49161B7A18D1}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YouLearn.Infra", "YouLearn.Infra\YouLearn.Infra.csproj", "{96B4D741-74DB-427B-B072-09C72569C04D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YouLearn.Domain", "YouLearn.Domain\YouLearn.Domain.csproj", "{D995F6BF-AB78-40DF-98B3-49161B7A18D1}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YouLearn.Shared", "YouLearn.Shared\YouLearn.Shared.csproj", "{B95151C2-B8CA-4333-8F5F-AC78F42A6BD0}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YouLearn.Api", "YouLearn.Api\YouLearn.Api.csproj", "{45EDCEC5-56C3-4BE9-B92B-20A9E155E639}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YouLearn.Infra", "YouLearn.Infra\YouLearn.Infra.csproj", "{C0B4DBB0-6ADF-4A48-A96F-A5DB3001BB0F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -24,10 +24,6 @@ Global
 		{D995F6BF-AB78-40DF-98B3-49161B7A18D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D995F6BF-AB78-40DF-98B3-49161B7A18D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D995F6BF-AB78-40DF-98B3-49161B7A18D1}.Release|Any CPU.Build.0 = Release|Any CPU
-		{96B4D741-74DB-427B-B072-09C72569C04D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{96B4D741-74DB-427B-B072-09C72569C04D}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{96B4D741-74DB-427B-B072-09C72569C04D}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{96B4D741-74DB-427B-B072-09C72569C04D}.Release|Any CPU.Build.0 = Release|Any CPU
 		{B95151C2-B8CA-4333-8F5F-AC78F42A6BD0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{B95151C2-B8CA-4333-8F5F-AC78F42A6BD0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B95151C2-B8CA-4333-8F5F-AC78F42A6BD0}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -36,5 +32,9 @@ Global
 		{45EDCEC5-56C3-4BE9-B92B-20A9E155E639}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{45EDCEC5-56C3-4BE9-B92B-20A9E155E639}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{45EDCEC5-56C3-4BE9-B92B-20A9E155E639}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C0B4DBB0-6ADF-4A48-A96F-A5DB3001BB0F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C0B4DBB0-6ADF-4A48-A96F-A5DB3001BB0F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C0B4DBB0-6ADF-4A48-A96F-A5DB3001BB0F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C0B4DBB0-6ADF-4A48-A96F-A5DB3001BB0F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
