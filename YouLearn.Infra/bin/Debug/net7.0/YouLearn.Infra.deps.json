@@ -8,6 +8,7 @@
     ".NETCoreApp,Version=v7.0": {
       "YouLearn.Infra/1.0.0": {
         "dependencies": {
+          "Microsoft.EntityFrameworkCore.Design": "7.0.5",
           "Microsoft.EntityFrameworkCore.SqlServer": "7.0.5",
           "Microsoft.EntityFrameworkCore.Tools": "7.0.5",
           "YouLearn.Doumain": "1.0.0",
