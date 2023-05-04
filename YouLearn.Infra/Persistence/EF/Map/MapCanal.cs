@@ -2,6 +2,7 @@
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
 using YouLearn.Domain.Entities;
 
+
 namespace YouLearn.Infra.Persistence.EF.Map
 {
     public class MapCanal : IEntityTypeConfiguration<Canal>
