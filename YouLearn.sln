@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YouLearn.Infra", "YouLearn.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YouLearn.Shared", "YouLearn.Shared\YouLearn.Shared.csproj", "{B95151C2-B8CA-4333-8F5F-AC78F42A6BD0}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YouLearn.Api", "YouLearn.Api\YouLearn.Api.csproj", "{45EDCEC5-56C3-4BE9-B92B-20A9E155E639}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -30,5 +32,9 @@ Global
 		{B95151C2-B8CA-4333-8F5F-AC78F42A6BD0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B95151C2-B8CA-4333-8F5F-AC78F42A6BD0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B95151C2-B8CA-4333-8F5F-AC78F42A6BD0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{45EDCEC5-56C3-4BE9-B92B-20A9E155E639}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{45EDCEC5-56C3-4BE9-B92B-20A9E155E639}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{45EDCEC5-56C3-4BE9-B92B-20A9E155E639}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{45EDCEC5-56C3-4BE9-B92B-20A9E155E639}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

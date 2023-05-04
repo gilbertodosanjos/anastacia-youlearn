@@ -1,9 +1,11 @@
-**YouLearn.Doumain/obj/*.*
-**YouLearn.Doumain/bin/*.*
-**YouLearn.Infra/obj/*.*
-**YouLearn.Infra/bin/*.*
-**YouLearn.Shared/obj/*.*
-**YouLearn.Shared/bin/*.*
-**YouLearn.Console/obj/*.*
-**YouLearn.Console/bin/*.*
+**/YouLearn.Doumain/obj/*.*
+**/YouLearn.Doumain/bin/*.*
+**/YouLearn.Infra/obj/*.*
+**/YouLearn.Infra/bin/*.*
+**/YouLearn.Shared/obj/*.*
+**/YouLearn.Shared/bin/*.*
+**/YouLearn.Console/obj/*.*
+**/YouLearn.Console/bin/*.*
+**/YouLearn.Api/obj/*.*
+**/YouLearn.Api/bin/*.*
 

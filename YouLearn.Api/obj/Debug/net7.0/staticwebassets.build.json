@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "UUx6ygduWY4vv7vuv8PRjdw2g2hUYwBTZzB3jjhB4jI=",
+  "Source": "YouLearn.Api",
+  "BasePath": "_content/YouLearn.Api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

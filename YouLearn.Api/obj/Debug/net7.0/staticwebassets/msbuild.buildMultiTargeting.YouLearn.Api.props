@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="../build/YouLearn.Api.props" />
+</Project>
