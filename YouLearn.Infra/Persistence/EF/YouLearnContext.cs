@@ -2,7 +2,7 @@
 using prmToolkit.NotificationPattern;
 using YouLearn.Domain.Entities;
 using YouLearn.Domain.ValueObjects;
-using YouLearn.Infra.Persistence.EF.MAP;
+using YouLearn.Infra.Persistence.EF.Map;
 using YouLearn.Shared;
 
 namespace YouLearn.Infra.Persistence.EF
