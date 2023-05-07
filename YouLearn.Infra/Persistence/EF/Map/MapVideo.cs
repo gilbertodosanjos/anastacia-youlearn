@@ -5,7 +5,6 @@ using System.Collections.Generic;
 using System.Text;
 using YouLearn.Domain.Entities;
 using YouLearn.Domain.ValueObjects;
-
 namespace YouLearn.Infra.Persistence.EF.Map
 {
     public class MapVideo : IEntityTypeConfiguration<Video>
@@ -15,9 +14,9 @@ namespace YouLearn.Infra.Persistence.EF.Map
 
             builder.ToTable("Video");
             //Foreikey
-            //builder.HasOne(x => x.UsuarioSugeriu).WithMany().HasForeignKey("IdUsuario");
-            //builder.HasOne(x => x.Canal).WithMany().HasForeignKey("IdCanal");
-            //builder.HasOne(x => x.PlayList).WithMany().HasForeignKey("IdPlayList");
+            builder.HasOne(x => x.UsuarioSugeriu).WithMany().HasForeignKey("IdUsuario");
+            builder.HasOne(x => x.Canal).WithMany().HasForeignKey("IdCanal");
+            builder.HasOne(x => x.PlayList).WithMany().HasForeignKey("IdPlayList");
 
             //Propriedades
             builder.HasKey(x => x.Id);
