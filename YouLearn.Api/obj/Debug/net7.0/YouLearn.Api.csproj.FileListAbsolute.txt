@@ -1,3 +1,10 @@
+/home/anastacia/Documentos/Projetos/anastacia-youlearn/YouLearn.Api/obj/Debug/net7.0/YouLearn.Api.csproj.AssemblyReference.cache
+/home/anastacia/Documentos/Projetos/anastacia-youlearn/YouLearn.Api/obj/Debug/net7.0/YouLearn.Api.GeneratedMSBuildEditorConfig.editorconfig
+/home/anastacia/Documentos/Projetos/anastacia-youlearn/YouLearn.Api/obj/Debug/net7.0/YouLearn.Api.AssemblyInfoInputs.cache
+/home/anastacia/Documentos/Projetos/anastacia-youlearn/YouLearn.Api/obj/Debug/net7.0/YouLearn.Api.AssemblyInfo.cs
+/home/anastacia/Documentos/Projetos/anastacia-youlearn/YouLearn.Api/obj/Debug/net7.0/YouLearn.Api.csproj.CoreCompileInputs.cache
+/home/anastacia/Documentos/Projetos/anastacia-youlearn/YouLearn.Api/obj/Debug/net7.0/YouLearn.Api.MvcApplicationPartsAssemblyInfo.cs
+/home/anastacia/Documentos/Projetos/anastacia-youlearn/YouLearn.Api/obj/Debug/net7.0/YouLearn.Api.MvcApplicationPartsAssemblyInfo.cache
 /home/anastacia/Documentos/Projetos/anastacia-youlearn/YouLearn.Api/bin/Debug/net7.0/appsettings.Development.json
 /home/anastacia/Documentos/Projetos/anastacia-youlearn/YouLearn.Api/bin/Debug/net7.0/appsettings.json
 /home/anastacia/Documentos/Projetos/anastacia-youlearn/YouLearn.Api/bin/Debug/net7.0/YouLearn.Api
@@ -68,13 +75,6 @@
 /home/anastacia/Documentos/Projetos/anastacia-youlearn/YouLearn.Api/bin/Debug/net7.0/YouLearn.Infra.pdb
 /home/anastacia/Documentos/Projetos/anastacia-youlearn/YouLearn.Api/bin/Debug/net7.0/YouLearn.Domain.pdb
 /home/anastacia/Documentos/Projetos/anastacia-youlearn/YouLearn.Api/bin/Debug/net7.0/YouLearn.Shared.pdb
-/home/anastacia/Documentos/Projetos/anastacia-youlearn/YouLearn.Api/obj/Debug/net7.0/YouLearn.Api.csproj.AssemblyReference.cache
-/home/anastacia/Documentos/Projetos/anastacia-youlearn/YouLearn.Api/obj/Debug/net7.0/YouLearn.Api.GeneratedMSBuildEditorConfig.editorconfig
-/home/anastacia/Documentos/Projetos/anastacia-youlearn/YouLearn.Api/obj/Debug/net7.0/YouLearn.Api.AssemblyInfoInputs.cache
-/home/anastacia/Documentos/Projetos/anastacia-youlearn/YouLearn.Api/obj/Debug/net7.0/YouLearn.Api.AssemblyInfo.cs
-/home/anastacia/Documentos/Projetos/anastacia-youlearn/YouLearn.Api/obj/Debug/net7.0/YouLearn.Api.csproj.CoreCompileInputs.cache
-/home/anastacia/Documentos/Projetos/anastacia-youlearn/YouLearn.Api/obj/Debug/net7.0/YouLearn.Api.MvcApplicationPartsAssemblyInfo.cs
-/home/anastacia/Documentos/Projetos/anastacia-youlearn/YouLearn.Api/obj/Debug/net7.0/YouLearn.Api.MvcApplicationPartsAssemblyInfo.cache
 /home/anastacia/Documentos/Projetos/anastacia-youlearn/YouLearn.Api/obj/Debug/net7.0/staticwebassets/msbuild.YouLearn.Api.Microsoft.AspNetCore.StaticWebAssets.props
 /home/anastacia/Documentos/Projetos/anastacia-youlearn/YouLearn.Api/obj/Debug/net7.0/staticwebassets/msbuild.build.YouLearn.Api.props
 /home/anastacia/Documentos/Projetos/anastacia-youlearn/YouLearn.Api/obj/Debug/net7.0/staticwebassets/msbuild.buildMultiTargeting.YouLearn.Api.props

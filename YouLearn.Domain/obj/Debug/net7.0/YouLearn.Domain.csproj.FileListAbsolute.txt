@@ -1,3 +1,6 @@
+/home/anastacia/Documentos/Projetos/anastacia-youlearn/YouLearn.Domain/bin/Debug/net7.0/YouLearn.Domain.deps.json
+/home/anastacia/Documentos/Projetos/anastacia-youlearn/YouLearn.Domain/bin/Debug/net7.0/YouLearn.Domain.dll
+/home/anastacia/Documentos/Projetos/anastacia-youlearn/YouLearn.Domain/bin/Debug/net7.0/YouLearn.Domain.pdb
 /home/anastacia/Documentos/Projetos/anastacia-youlearn/YouLearn.Domain/obj/Debug/net7.0/YouLearn.Domain.csproj.AssemblyReference.cache
 /home/anastacia/Documentos/Projetos/anastacia-youlearn/YouLearn.Domain/obj/Debug/net7.0/YouLearn.Domain.Resources.MSG.resources
 /home/anastacia/Documentos/Projetos/anastacia-youlearn/YouLearn.Domain/obj/Debug/net7.0/YouLearn.Domain.csproj.GenerateResource.cache
@@ -5,9 +8,6 @@
 /home/anastacia/Documentos/Projetos/anastacia-youlearn/YouLearn.Domain/obj/Debug/net7.0/YouLearn.Domain.AssemblyInfoInputs.cache
 /home/anastacia/Documentos/Projetos/anastacia-youlearn/YouLearn.Domain/obj/Debug/net7.0/YouLearn.Domain.AssemblyInfo.cs
 /home/anastacia/Documentos/Projetos/anastacia-youlearn/YouLearn.Domain/obj/Debug/net7.0/YouLearn.Domain.csproj.CoreCompileInputs.cache
-/home/anastacia/Documentos/Projetos/anastacia-youlearn/YouLearn.Domain/bin/Debug/net7.0/YouLearn.Domain.deps.json
-/home/anastacia/Documentos/Projetos/anastacia-youlearn/YouLearn.Domain/bin/Debug/net7.0/YouLearn.Domain.dll
-/home/anastacia/Documentos/Projetos/anastacia-youlearn/YouLearn.Domain/bin/Debug/net7.0/YouLearn.Domain.pdb
 /home/anastacia/Documentos/Projetos/anastacia-youlearn/YouLearn.Domain/obj/Debug/net7.0/YouLearn.Domain.dll
 /home/anastacia/Documentos/Projetos/anastacia-youlearn/YouLearn.Domain/obj/Debug/net7.0/refint/YouLearn.Domain.dll
 /home/anastacia/Documentos/Projetos/anastacia-youlearn/YouLearn.Domain/obj/Debug/net7.0/YouLearn.Domain.pdb

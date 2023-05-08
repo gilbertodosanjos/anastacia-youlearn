@@ -10,8 +10,8 @@ namespace YouLearn.Api.Controllers.Base
 {
     public class ControllerBase : Controller
     {
-        private readonly IUnitOfWork _unitOfWork;
-        private IServiceBase _serviceBase;
+        private readonly IUnitOfWork? _unitOfWork;
+        private IServiceBase? _serviceBase;
 
         public ControllerBase(IUnitOfWork unitOfWork)
         {
@@ -26,7 +26,7 @@ namespace YouLearn.Api.Controllers.Base
             {
                 try
                 {
-                    _unitOfWork.Commit();
+                     _unitOfWork.Commit();
 
                     return Ok(result);
                     //return Request.CreateResponse(HttpStatusCode.OK, result);
