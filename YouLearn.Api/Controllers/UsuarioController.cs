@@ -8,6 +8,7 @@ using System.IdentityModel.Tokens.Jwt;
 using System.Linq;
 using System.Security.Claims;
 using System.Security.Principal;
+using System.Threading.Tasks;
 using YouLearn.Api.Security;
 using YouLearn.Domain.Arguments.Usuario;
 using YouLearn.Domain.Interfaces.Services;
