@@ -110,10 +110,13 @@ namespace YouLearn.Api
 
                 config.Filters.Add(new AuthorizeFilter(policy));
             });
-
-            services.AddCors();
-
             //services.AddMvc();
+
+            services.AddMvc(options => options.EnableEndpointRouting = false);
+            //OR
+            //services.AddControllers(options => options.EnableEndpointRouting = false);
+            
+            services.AddCors();
 
             //Aplicando documentação com swagger
             services.AddSwaggerGen(x => {
@@ -129,8 +132,9 @@ namespace YouLearn.Api
                 app.UseDeveloperExceptionPage();
             }
 
+            //permissão para tipos de requisições 
             app.UseCors(x=> {
-                x.AllowAnyHeader();
+                x.AllowAnyHeader(); 
                 x.AllowAnyMethod();
                 x.AllowAnyOrigin();
             });

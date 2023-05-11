@@ -56,6 +56,7 @@ namespace YouLearn.Api.Controllers
 
             if (credenciaisValidas)
             {
+                //ClaimsIdentity é onde guarda as informações durante o ciclo de vida do context
                 ClaimsIdentity identity = new ClaimsIdentity(
                     new GenericIdentity(response.Id.ToString(), "Id"),
                     new[] {
@@ -70,8 +71,10 @@ namespace YouLearn.Api.Controllers
                     TimeSpan.FromSeconds(tokenConfigurations.Seconds);
 
                 var handler = new JwtSecurityTokenHandler();
+                //configurações para criar o token
                 var securityToken = handler.CreateToken(new SecurityTokenDescriptor
                 {
+                    // Issuer e  Audience - é a identidade da IPI configurada no tokenConfigurations
                     Issuer = tokenConfigurations.Issuer,
                     Audience = tokenConfigurations.Audience,
                     SigningCredentials = signingConfigurations.SigningCredentials,
@@ -79,6 +82,7 @@ namespace YouLearn.Api.Controllers
                     NotBefore = dataCriacao,
                     Expires = dataExpiracao
                 });
+                // escreve o token para retornar para o usuário
                 var token = handler.WriteToken(securityToken);
 
                 return new
